@@ -21,10 +21,11 @@ Or install it yourself as:
 ## Usage
 
 From the command line:
-$ require 'rck_ppr_scssrs'
-$ irb
-$ game = RckPprScssrs::RockPaperScissors.new
-$ game.play_game
+
+    $ require 'rck_ppr_scssrs'
+    $ irb
+    $ game = RckPprScssrs::RockPaperScissors.new
+    $ game.play_game
 
 
 ## Development
