@@ -10,7 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["julia.herron@gmail.com"]
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
+     spec.metadata['allowed_push_host'] = "https://rubygems.org"
+  else
+    raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   end
 
   spec.summary       = %q{Simple command line game for rock paper scissors.}
